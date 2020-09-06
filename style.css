@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+main{
+    background-image: url("img/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left:69px;
+    margin-right: 68px;
+    height: 100vh;
+  }
+
+header{
+    display: flex;
+    justify-content:space-between;
+
+} 
+
+header .logo{
+    position:relative;
+    font-size: 30px;
+    letter-spacing: 6px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Inconsolata";
+    text-transform: uppercase;
+    margin-top: 69px;
+}
+
+nav{    
+    margin-top:75px;
+}
+
+nav ul{
+    position:relative;
+    display:flex;
+    list-style-type: none;	
+}
+
+nav ul li{
+    margin-left: 110px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+}
+
+#photodiary{
+    margin-left: 150px;
+    margin-right: 158px;
+}
+
+#photodiary h2{
+    font-size: 14px;
+    color: #b4ad9e;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    margin-top: 97px;
+    margin-bottom: 30px;
+}
+
+#photodiary h1{
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-bottom: 32px;
+}
+
+#photodiary span{
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+}
+
+#photodiary h6{
+    font-size: 14px;
+    color: #b4ad9e;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    margin-top: 52px;
+}
+
+.posts {
+    margin: 135px 150px 0 150px;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.posts  .grid{
+    width: 420px;
+    margin-bottom: 131px;
+}
+.posts .grid img{
+    width: 423px;
+    height: 283px;
+    margin-bottom: 31px;
+}
+
+.posts .grid h5{
+    font-size: 14px;
+color: #b4ad9e;
+font-weight: 300;
+font-family: "Ubuntu";
+margin-bottom: 28px;
+text-transform: uppercase;
+}
+
+.posts .grid h2{
+    font-size: 30px;
+color: #626262;
+font-weight: 400;
+font-family: "Playfair Display";
+margin-bottom: 39px;
+}
+.posts .grid span{
+    font-size: 14px;
+line-height: 24px;
+color: #626262;
+font-weight: 400;
+font-family: "Playfair Display";
+}
+
+footer{
+    height: 287px;
+    background-color: #f0f0f0;
+    padding-left: 400px;
+    padding-right: 550px;
+  }
+
+footer h2{
+    padding-top: 74px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-bottom: 83px;
+}
+footer input{
+    all:unset;
+}
+footer input{
+      
+    font-size: 14px;
+line-height: 24px;
+color: #626262;
+font-weight: 400;
+font-family: "Playfair Display"; 
+float: left;
+min-width: 350px;
+}
+
+footer img {
+  float: right;
+}
+footer input img h2{
+    margin-left: 400px;
+    width: 400px;
+}
+
+ .social{
+     display: inline-block;
+     padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+
+button{
+    width: 165px;
+    height: 61px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #626262;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+line-height: 24px;
+color: #626262;
+font-weight: 400;
+font-family: "Playfair Display";
+display: flex;
+margin: 0 auto;
+}
+/*.btn{
+    width: 100%;
+}*/
