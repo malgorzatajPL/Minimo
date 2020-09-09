@@ -1,0 +1,54 @@
+@media only screen and (max-width: 992px) {
+
+header nav ul li a{
+    font-size: 16px;
+}
+
+header nav ul li{
+    margin-left: 60px;
+}
+
+#photodiary{
+    margin: 0 70px 90px 70px;
+}
+
+.posts{
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+ .posts .grid{
+    max-width:380px;
+    margin-bottom: 80px;
+}
+
+.posts .grid img{
+    width: 380px;
+}
+
+ .posts .grid h5{
+    margin-bottom: 22px;
+}
+
+.posts .grid h2{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+footer {
+    height: 240px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+footer h2{
+    padding-top: 20px;
+}
+
+.btn{
+    margin-bottom: 50px;
+}
+}

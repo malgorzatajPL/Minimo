@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px){
+
+main{
+    margin: 0 25px;
+}
+
+#photodiary{
+    margin: 0 50px 90px 50px;
+}
+
+#photodiary h2{
+    margin-top: 50px;
+}
+
+#photodiary h1{
+    font-size: 28px;
+}
+
+.posts .grid{
+max-width: 300px;
+}
+
+.posts .grid img{
+    width: 300px;
+    height: auto;
+}
+
+.posts .grid h2{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+footer h2{
+    padding-top: 50px;
+    font-size: 28px;
+    margin-bottom: 76px;
+}
+
+button{
+    width: 158px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 22px;
+}
+}
