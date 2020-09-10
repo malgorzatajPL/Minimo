@@ -1,7 +1,55 @@
 @media only screen and (max-width: 600px) {
 
-header nav ul{
-    display: none;
+header nav{
+    margin-top: 0;
+}
+.open{
+background-image: url("../img/menu.svg"); 
+background-repeat: no-repeat;
+background-size: cover;
+width: 40px;
+height: 40px;
+position: absolute;
+right: 40px;
+top: 40px;   
+}
+
+.sidenav {
+    padding: 0;
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    text-align: center;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+
+.sidenav a:first-child{
+    display: inherit;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
 }
 
 main{

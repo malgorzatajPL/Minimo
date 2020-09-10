@@ -1,7 +1,12 @@
 @media only screen and (max-width: 768px){
 
 main{
-    margin: 0 25px;
+    margin: 0 15px;
+}
+
+header nav a{
+    font-size: 14px;
+    margin-left: 25px;
 }
 
 #photodiary{

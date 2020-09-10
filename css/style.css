@@ -41,17 +41,15 @@ header nav{
     margin-top:75px;
 }
 
-header nav ul{
+header nav a:first-child{
+    	display: none;
+}
+
+header nav a{
     position:relative;
     display:flex;
-    list-style-type: none;	
-}
-
-header nav ul li{
+    list-style-type: none;
     margin-left: 110px;
-}
-
-header nav ul li a{
     text-decoration:none;
     display: inline-block;
     font-size: 14px;
@@ -185,4 +183,8 @@ button{
     color: #626262;
     display: flex;
     margin: 0 auto;
+}
+
+.btn{
+    margin-bottom: 100px;
 }
